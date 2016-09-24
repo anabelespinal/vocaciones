@@ -1,7 +1,21 @@
 window.addEventListener("load", function(){
+	var fondos = document.getElementsByClassName("fondos");
 	window.addEventListener("click", function(){
 		jugarProfesiones();
-	})
+	});
+
+//mouseover and mouseout event
+	var fondos = document.getElementsByClassName("fondos");
+	for (var i = fondos.length - 1; i >= 0; i--) {
+		fondos[i].addEventListener("mouseover", function(){
+			agrandarFondo(this);
+		});
+		fondos[i].addEventListener("mouseout", function(){
+			achicarFondo(this);
+		});
+	}
+
+//evento click
 	function jugarProfesiones(){
         var conteneddorNina = document.getElementById("contenedorNina");
 		var nina = document.getElementById("nina");
@@ -36,4 +50,16 @@ window.addEventListener("load", function(){
 			contenedorNina.style.backgroundSize = "cover";
 		});
 	};
+
+//llamando a las funciones de los eventos mouseover y mouseout
+
+	function agrandarFondo(fondos) {
+		fondos.style.height = "200%";
+    	fondos.style.width = "200%";
+	}
+
+	function achicarFondo(fondos) {
+		fondos.style.height = "125%";
+    	fondos.style.width = "125%";
+	}
 });
