@@ -1,0 +1,23 @@
+#contenedorRopa{
+	display: inline-block;
+	width: 50%;
+	position: relative;
+	left: 45%;
+}
+
+img{
+	display: inline-block;
+	position: relative;
+}
+
+#astronauta{
+	left: 30%;
+}
+
+#cantante{
+	bottom: 20%;
+}
+
+
+
+
