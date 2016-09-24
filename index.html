@@ -6,8 +6,10 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<div id="contenedorJuego">
-		<div id="contenedorNina" class="displayIb">
+<button id="jugar">JUGAR</button>
+<div id="myDIV" style="display:none;"></div>
+	<div id="contenedorJuego" style="display:none;">
+		<div id="contenedorNina" class="displayIb" ondrop="drop(event)" ondragover="allowDrop(event)">
 			<img src="img/nina.png" class="displayIb" id="nina">
 		</div>
 		<div id="contenedorFondos" class="displayIb">
@@ -17,15 +19,16 @@
 			<img src="img/pintor.jpg" id="fondoPintor" class="fondos">
 			<img src="img/space.jpg" id="fondoAstronauta" class="fondos">
 		</div>
-		<div id="contenedorRopa">
-			<img src="img/doctor.png" id="doctor">
-			<img src="img/pintor.png" id="pintor" >
-			<img src="img/chef.png" id="chef">
-			<img src="img/cantante.png" id="cantante">
-			<img src="img/botas.png" id="botas">
-			<img src="img/astronauta.png" id="astronauta">
+		<div id="contenedorRopa" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<img src="img/doctor.png" id="doctor" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" class="ropas">
+			<img src="img/pintor.png" id="pintor" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" class="ropas">
+			<img src="img/chef.png" id="chef" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" class="ropas">
+			<img src="img/cantante.png" id="cantante" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" class="ropas">
+			<img src="img/botas.png" id="botas" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" class="ropas">
+			<img src="img/astronauta.png" id="astronauta" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" class="ropas">
 		</div>
 	</div>
+	<p id="demo"></p>
 
 	<script type="text/javascript" src="js/main.js"></script>
 </body>

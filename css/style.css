@@ -50,3 +50,24 @@ img{
 	top: 20em;
 	left: -3em;
 }
+
+
+/*clase fantasma*/
+
+.ropa {
+	position: relative;
+	bottom: 15.3em;
+	left: 6em;
+}
+
+#myDIV {
+    width: 100px;
+    height: 30px;
+    background: red;
+    -webkit-transition: 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+
+#myDIV:hover {
+    width:1300px;
+}
