@@ -11,15 +11,13 @@ var fondoPintor = document.getElementById("fondoPintor");
 var fondoAstronauta = document.getElementById("fondoAstronauta");
 var jugar = document.getElementById("jugar");
 var div = document.getElementById("myDIV");
+var contenedorFondos = document.getElementById("contenedorFondos")
 var fondos = document.getElementsByClassName("fondos");
 var contenedorJuego = document.getElementById("contenedorJuego");
 var contenedorRopa = document.getElementById("contenedorRopa");
 var ropaUno = document.querySelector(".ropaUno");
 var ropaDos = document.querySelector(".ropaDos");
 var ropaTres = document.querySelector(".ropaTres");
-var ropaCuatro = document.querySelector(".ropaCuatro");
-var ropaCinco = document.querySelector(".ropaCinco");
-var ropaSeis = document.querySelector(".ropaSeis");
 
 //FUNCION DE CAMBIAR FONDOS:
 
@@ -109,6 +107,10 @@ function cambioFondos(){
         
         contenedorNina.style.height = "23em";
         contenedorNina.style.top = "4em";
+        contenedorJuego.style.height = "35em";
+        contenedorFondos.style.bottom = "10em";
+        contenedorRopa.style.bottom ="20em";
+
     };
 
 window.addEventListener("load", function(){
@@ -131,15 +133,6 @@ window.addEventListener("load", function(){
         dragStart(event);
     });
     ropaTres.addEventListener("dragstart", function(){
-        dragStart(event);
-    });
-    ropaCuatro.addEventListener("dragstart", function(){
-        dragStart(event);
-    });
-    ropaCinco.addEventListener("dragstart", function(){
-        dragStart(event);
-    });
-    ropaSeis.addEventListener("dragstart", function(){
         dragStart(event);
     });
     conteneddorNina.addEventListener("drop", function(){

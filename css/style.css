@@ -152,7 +152,6 @@ section {
     border: 1px solid black;
     border-radius: 2em;
     padding: 3% 3%;
-	bottom: 10em;
 	width: 25%;
 }
 
@@ -163,7 +162,6 @@ section {
 #contenedorFondos {
 	display: inline-block;
 	position: relative;
-	bottom: 10em;
 	width: 5%;
 }
 
@@ -175,26 +173,14 @@ section {
 #contenedorRopa{
 	display: inline-block;
 	width: 60%;
+	position: relative;
+	bottom: 10em;
 }
 
 img{
 	display: inline-block;
 	position: relative;
 	left: 20%;
-}
-
-#astronauta {
-	
-}
-
-#cantante {
-	top: 20em;
-	left: -5em;
-}
-
-#botas {
-	top: 20em;
-	left: -3em;
 }
 
 /*clase fantasma*/
