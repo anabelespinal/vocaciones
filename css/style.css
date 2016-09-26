@@ -1,0 +1,301 @@
+/*Scrol*/
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 9px rgb(0,0,0);
+    border-radius: 3em;
+}
+
+::-webkit-scrollbar {
+	width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: rgb(253, 220, 104);
+    border-radius: 1em;
+}
+
+/*body*/
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*index.html*/
+
+
+/*header*/
+
+header div{
+    width: 100%;
+    background-color: rgb(253, 220, 104);
+    position: fixed;
+}
+
+.logo {
+    margin-left: -17%;
+    position: relative;
+    top: 1em;
+    width: 5%;
+}
+
+h2{
+    display: inline-block;
+    position: relative;
+    font-family: cursive;
+    left: 22%;
+}
+
+nav {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    width: 35%;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: cursive;
+    margin-right: 7%;
+    font-size: 120%;
+    color: black;
+}
+
+nav a:hover {
+    padding: 1% 2%;
+    border-radius: 3px;
+    background-color: rgba(254, 179, 1, 0.3);
+}
+
+/*section*/
+
+section {
+    background-color: beige;
+    padding: 1% 0;
+}
+
+/*heading*/
+
+.heading {
+    background-color: khaki;
+    text-align: center;
+    padding: 11% 5%;
+}
+
+.heading h1 {
+    font-family: monospace;
+    font-size: 500%;
+}
+
+/*conceptos*/
+.contentConcept{
+    border-bottom: 1px solid black;
+    background-color: rgb(237, 235, 235);
+    padding: 10% 0;
+} 
+
+.titConcp {
+    text-align: center;
+    font-size: 200%;
+}
+
+.conceptos {
+    display: inline-block;
+    margin-left: 10%;
+    width: 35%;
+}
+
+.conceptos h3 {
+    font-size: 250%;
+    font-family:monospace;
+}
+
+.jugando {
+    padding: 5% 2%;
+    text-align: center;
+}
+
+.aprendiendo {
+    font-size: 200%;
+    font-family: cursive;
+    color: orange;
+}
+
+/*juego*/
+
+/*boton*/
+
+#jugar {
+    border-radius: 1em;
+    background-color:khaki;
+    font-family: fantasy;
+    font-size: 170%;
+    padding: 3% 4%;
+    border: none;
+}
+
+/*contenedorJuego*/
+
+#contenedorJuego {
+    background-color: antiquewhite;
+	border: 10px solid black;
+    border-radius: 3em;
+    position: relative;
+	padding: 2%;
+}
+
+/*contenedorNina*/
+#contenedorNina{
+	background-color: #F5D1D1;
+	position: relative;
+    border: 1px solid black;
+    border-radius: 2em;
+    padding: 3% 3%;
+	bottom: 10em;
+	width: 25%;
+}
+
+.displayIb {
+	display: inline-block;
+}
+
+#contenedorFondos {
+	display: inline-block;
+	position: relative;
+	bottom: 10em;
+	width: 5%;
+}
+
+.fondos {
+	display: block;
+	width: 125%;
+}
+
+#contenedorRopa{
+	display: inline-block;
+	width: 60%;
+}
+
+img{
+	display: inline-block;
+	position: relative;
+	left: 20%;
+}
+
+#astronauta {
+	
+}
+
+#cantante {
+	top: 20em;
+	left: -5em;
+}
+
+#botas {
+	top: 20em;
+	left: -3em;
+}
+
+/*clase fantasma*/
+
+.ropa {
+	position: relative;
+	bottom: 15.3em;
+	left: 6em;
+}
+
+#myDIV {
+    transition: 4s;
+    background-color: coral;
+    position: relative;
+    top: 2em;
+    width: 2%;
+    height: 1em;
+}
+
+#myDIV:hover {
+    width:100%;
+}
+
+/*footer*/
+
+footer {
+    padding: 3%;
+    background-color: khaki;
+}
+
+footer p {
+    margin-left: 3%;
+    font-size: 150%;
+}
+
+
+/*profesione.html*/
+
+/*profesiones*/
+
+.section {
+    padding: 10% 0;
+}
+
+.profesiones {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left: 10%;
+    width: 40%;
+}
+
+/*oficios*/
+
+.oficios {
+    display: inline-block;
+    text-align: center;
+    width: 40%;   
+    position: relative;
+    left: 10%
+}
+
+.h3{
+    font-size: 200%;
+    font-family: cursive;
+}
+
+.profOfi{
+    background-color: rgba(251, 234, 136, 0.2);
+    padding: 3%;
+    margin: 3%;
+}
+.profOfi:hover h4{
+    color: rgb(151, 0, 4);
+    font-size: 300%;
+}
+.profOfi:hover p {
+    color: rgb(2, 67, 147);
+    margin-top: -1%;
+    margin-bottom: 2%;
+}
+
+.profOfi h4{
+    font-size: 150%;
+    font-family: monospace;
+}
+.profOfi p{
+    font-size: 120%;
+    margin: auto;
+    width: 70%;
+}
+/*VIDEOS*/
+
+iframe{
+    position: relative;
+    display: block;
+    left: 25%;
+    margin: 10% 0 3% 0;
+    width: 50%;
+    height: 30em;
+}
+
+
+
